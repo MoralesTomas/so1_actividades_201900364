@@ -1,4 +1,8 @@
 #!/bin/bash
 # Author : MoralesTomas
 
-echo "Hola mundo! Fecha: $(date +'%Y-%m-%d %H:%M:%S')"
+
+while true; do
+    echo "Hola, mundo! La fecha actual es: $(date)"
+    sleep 5  # tiempo (en segundos) 
+done
